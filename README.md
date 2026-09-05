@@ -4,12 +4,9 @@ GitHub：https://github.com/hctsaik/Dayi_IME_for_Mac
 
 ## 現況（2026-09-05）
 
-獨立 InputMethodKit App 因 macOS 15 需要 **Developer ID** 簽章才能出現在「加入輸入方式」清單，目前日用改走已簽章的 **鼠鬚管（Squirrel）**：
+**安裝、部署到其他 Mac、給 AI 的操作說明：先讀 [docs/INSTALL.md](docs/INSTALL.md)。**
 
-1. 將 `squirrel-user/` 裡的 yaml／詞庫複製到 `~/Library/Rime/`（含 `common_words_*.dict.yaml`、`mydayi_boost.dict.yaml`）
-2. 執行 `scripts/redeploy-dayi2.sh`（會編譯詞庫，並可匯入 `dayi2.userdb.export.txt` 學習詞）
-3. 系統設定加入 **Squirrel / 鼠鬚管**，方案選 **大易兩碼**
-4. 若第一候選被學錯（例如「感兒」蓋過「感覺」），從 userdb 刪掉該筆即可
+獨立 InputMethodKit App 因 macOS 15 需要 **Developer ID** 簽章才能出現在「加入輸入方式」清單，目前日用改走已簽章的 **鼠鬚管（Squirrel）** + `squirrel-user/` 詞庫。
 
 詞庫訓練腳本：`scripts/train_from_article.py`（維基百科 + rime-essay）。
 
@@ -21,20 +18,21 @@ GitHub：https://github.com/hctsaik/Dayi_IME_for_Mac
 使用者目標仍是 **獨立 macOS 系統輸入法 App**；Squirrel 是目前可打字的過渡方案。
 暫定名稱 myDayi Mac；開發 Bundle ID `tw.mydayi.mac.dev`。
 
-最新確認：個人完整日用版、Mac M4、VS Code 優先；預設 Windows 大易操作、可選 Mac profile。第一版不做注音反查、不做繁簡切換；Windows live userdb 遷移 deferred。macOS/Xcode 尚待 SSH 進 Mac 偵測（見 [MAC-ACCESS](docs/MAC-ACCESS.md)）。範圍以 [SCOPE](docs/SCOPE.md) 為準。
+最新確認：個人完整日用版、Mac M4、VS Code 優先；預設 Windows 大易操作、可選 Mac profile。第一版不做注音反查、不做繁簡切換；Windows live userdb 遷移 deferred。原生環境見 [NATIVE-ENV](docs/NATIVE-ENV.md)。範圍以 [SCOPE](docs/SCOPE.md) 為準。
 
 ## 閱讀順序
 
-1. [AI 接手指令](AI-HANDOFF.md)
-2. [範圍凍結](docs/SCOPE.md)
-3. [現況盤點](docs/SOURCE-AUDIT.md)
-4. [OpenSpec 提案](openspec/changes/add-native-macos-dayi/proposal.md)
-5. [架構設計](openspec/changes/add-native-macos-dayi/design.md)
-6. [實作任務](openspec/changes/add-native-macos-dayi/tasks.md)
-7. [鍵盤契約](docs/KEYBOARD-CONTRACT.md)／[事件契約](docs/EVENT-CONTRACT.md)／[golden traces](docs/GOLDEN-TRACES.md)
-8. [驗收矩陣](docs/ACCEPTANCE.md)
-9. [建置與交付](docs/BUILD-RELEASE.md)
-10. [連 Mac 編譯](docs/MAC-ACCESS.md)
+1. **[安裝與部署指南（人＋AI 必讀）](docs/INSTALL.md)**
+2. [AI 接手指令](AI-HANDOFF.md)
+3. [範圍凍結](docs/SCOPE.md)
+4. [現況盤點](docs/SOURCE-AUDIT.md)
+5. [OpenSpec 提案](openspec/changes/add-native-macos-dayi/proposal.md)
+6. [架構設計](openspec/changes/add-native-macos-dayi/design.md)
+7. [實作任務](openspec/changes/add-native-macos-dayi/tasks.md)
+8. [鍵盤契約](docs/KEYBOARD-CONTRACT.md)／[事件契約](docs/EVENT-CONTRACT.md)／[golden traces](docs/GOLDEN-TRACES.md)
+9. [驗收矩陣](docs/ACCEPTANCE.md)
+10. [建置與交付](docs/BUILD-RELEASE.md)
+11. [連 Mac 編譯](docs/MAC-ACCESS.md)
 
 ## 交付內容
 

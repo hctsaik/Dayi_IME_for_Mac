@@ -28,7 +28,7 @@ sleep 1
 "$DEPLOYER" --build "$RIME" "$SHARED"
 if [ -f "$SRC/dayi2.userdb.export.txt" ]; then
   perl -pi -e 's/\r//g' "$SRC/dayi2.userdb.export.txt"
-  "$DICT_MGR" -i dayi2 "$SRC/dayi2.userdb.export.txt" || true
+  (cd "$RIME" && "$DICT_MGR" -i dayi2 "$SRC/dayi2.userdb.export.txt") || true
 fi
 open "/Library/Input Methods/Squirrel.app"
 echo "redeployed squirrel-user dictionaries"

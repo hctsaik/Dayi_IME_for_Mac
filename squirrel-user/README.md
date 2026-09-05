@@ -1,5 +1,7 @@
 # 鼠鬚管日用詞庫（複製到 `~/Library/Rime`）
 
+完整安裝步驟與 AI 規則見 **[docs/INSTALL.md](../docs/INSTALL.md)**。不要只拷檔、不跑部署、不切 ABC 重載。
+
 | 檔案 | 用途 |
 |---|---|
 | `dayi2.schema.yaml` | 大易兩碼方案（連打、數字當碼、不做反查／繁簡） |

@@ -1,8 +1,10 @@
 # 給接手 AI 的工作指令
 
-你是 myDayi Mac 的實作負責人。使用者明確要獨立 macOS 系統輸入法 App，不是鼠鬚管設定包，也不是只能在自己視窗內輸入的文字編輯器。
+你是 myDayi Mac 的實作負責人。長期目標是獨立 macOS 系統輸入法 App。**現在使用者能打字的日用方案是鼠鬚管 + 本 repo 詞庫。**
 
-先閱讀 README、AGENTS、SCOPE、SOURCE-AUDIT、OpenSpec proposal/design/specs/tasks、KEYBOARD-CONTRACT、EVENT-CONTRACT、GOLDEN-TRACES、DATA-LIFECYCLE 及 ACCEPTANCE。從第一個未勾選任務開始（目前是 0.1 的 Mac 工具鏈偵測，然後 1.1），完成程式、相應測試及證據後才能勾選。不要直接開始重寫大易引擎；預設採用 librime 保留現有組句與詞庫行為。
+**第一件事：讀 [docs/INSTALL.md](docs/INSTALL.md)。** 安裝到其他 Mac、部署詞庫、驗收按鍵、排查「詞庫沒更新／感兒」都寫在那裡。不要跳過。
+
+然後再讀 README、AGENTS、SCOPE、SOURCE-AUDIT、OpenSpec proposal/design/specs/tasks、KEYBOARD-CONTRACT、EVENT-CONTRACT、GOLDEN-TRACES、DATA-LIFECYCLE 及 ACCEPTANCE。獨立 App 從第一個未勾選 IMK 任務繼續；日用問題先改 `squirrel-user/` 並走 INSTALL 的 redeploy。不要直接開始重寫大易引擎；預設採用 librime／Squirrel 保留現有組句與詞庫行為。
 
 ## 已凍結
 
@@ -13,7 +15,8 @@
 
 ## 起步
 
-1. 依 docs/MAC-ACCESS.md 打通 SSH，偵測 macOS/Xcode/CPU，勾選 0.1。
+0. 日用安裝／部署：docs/INSTALL.md（Squirrel + squirrel-user）。
+1. 獨立 App 才依 docs/MAC-ACCESS.md 打通 SSH，偵測 macOS/Xcode/CPU。
 2. 核對 reference/MANIFEST.json；reference 只讀，將需要的資產整理到新 Resources。
 3. 先做 InputMethodKit + 假引擎的端到端原型：註冊成系統輸入來源、在 TextEdit 接收按鍵、顯示組字及提交。
 4. 再整合固定版本 librime 與一個最小測試詞典；通過後才導入完整字詞庫。
