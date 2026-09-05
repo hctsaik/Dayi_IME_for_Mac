@@ -1,0 +1,1221 @@
+# Rime user dictionary export
+#@/db_name	dayi2
+#@/db_type	userdb
+#@/rime_version	1.11.2
+#@/tick	3102
+#@/user_id	b815c9df-5469-4ad5-b6c8-f1d94ef13eb7
+力	,	3
+獨	,;	3
+獨之	,; k	1
+架	,i	1
+架構	,i if	3
+加	,o	6
+加入	,o a	4
+加在	,o sf	1
+方	.	11
+於	..	4
+舫	..	1
+資	.8	2
+資訊	.8 1s	1
+資料	.8 8s	10
+資料夾	.8 8s va	9
+次	.a	18
+旅	.k	1
+良	.k	1
+旅館	.k ar	1
+良率	.k ks	1
+舷	.t	1
+冰	.x	2
+放	.x	12
+放在	.x sf	5
+放大	.x v	3
+竹	/	1
+的	/.	270
+等	/.	3
+等候	/.	1
+的時候	/. d. av	33
+的一	/. e	1
+的部例	/. kp an	4
+第	//	7
+第一	// e	9
+第二次	// ee .a	1
+邊	/0	6
+自	/3	5
+自然	/3 by	1
+自己	/3 rc	13
+自動	/3 v,	3
+籤	/5	2
+白	/d	2
+簡	/d	1
+白色	/d nc	1
+簡單	/d os	2
+簡單的	/d os /.	1
+筆	/f	3
+筆畫	/f re	17
+箭	/n	2
+向	/o	4
+答	/o	1
+答案	/o mi	17
+節	/p	2
+節能	/p ;c	1
+管	/r	1
+系	/t	1
+系統	/t tq	19
+及	/x	2
+息	/z	3
+鍵	00	5
+錯	0d	9
+錯的	0d /.	1
+錯誤	0d 1v	24
+鈕	0s	1
+發	0x	6
+錄	0x	1
+發生	0x 2e	5
+發現	0x 5q	1
+討	1.	1
+謝	1.	1
+讞	1.	1
+謝謝	1. 1.	1
+討論	1. 1u	1
+讞證	1. 1u	1
+這	10	19
+這些	10	1
+這個	10	2
+這個個	10	1
+這邊	10 /0	1
+這上	10 9e	1
+這合	10 ao	10
+這是	10 d9	3
+這一	10 e	5
+這樣	10 ix	15
+這樣的	10 ix /.	1
+試	15	3
+議	15	1
+讀	18	16
+順	18	2
+讀音	18 kd	1
+讀取	18 px	5
+訴	19	1
+該	1a	1
+記	1c	1
+記錄	1c 0x	5
+請	1j	46
+請將	1j	1
+譋	1j	1
+請讓	1j 1k	1
+請閍	1j 6.	1
+請問	1j 6o	1
+請你	1j at	7
+請執行	1j f. ej	1
+請用	1j mf	7
+讓	1k	25
+讓我	1k v5	7
+詞	1o	62
+話	1o	9
+調	1o	3
+詞整	1o i9	3
+說	1q	2
+計	1s	2
+訊	1s	2
+訊息	1s /z	13
+論	1u	1
+證	1u	1
+誤	1v	2
+設	1x	5
+變	1x	8
+設計	1x 1s	7
+變成	1x h5	3
+設定	1x m9	1
+認	1z	1
+牛	2	2
+每	2.	4
+每個	2.	5
+特	2.	2
+每個次	2. .a	1
+每個	2. ao	1
+每個一	2. e	1
+特別	2. on	1
+年	22	3
+缺	2a	2
+缺點	2a 4o	1
+生	2e	4
+告	2o	1
+知	2o	2
+告訴	2o 19	8
+告訴我	2o 19 v5	1
+知道	2o u0	10
+知道嗎	2o u0 ob	1
+先	2q	10
+先不要	2q h9 4l	1
+繁	2t	1
+繁體	2t mu	9
+無	2y	2
+怎	2z	1
+怎麼	2z ct	3
+目	3	6
+目前	3 un	1
+非	33	2
+非常	33 t1	1
+具	38	2
+則	3n	3
+則會	3n	1
+則會	3n ad	1
+見	3q	1
+四	4	2
+黑	4	6
+還	40	8
+還是	40	1
+還有	40	1
+邏	40	1
+邏輯	40 6p	11
+還是	40 d9	36
+還是有	40 d9 sj	1
+還原	40 ht	3
+還有	40 sj	3
+置	43	3
+置中	43 o1	3
+要	4l	26
+要先	4l 2q	1
+要是	4l d9	1
+要如何	4l lo aj	1
+要有	4l sj	5
+點	4o	15
+點嗎	4o ob	1
+覆	4x	3
+王鍵	5 00	1
+班	55	1
+丟	5;	2
+理	5f	3
+理解	5f n2	3
+現	5q	4
+現在	5q	1
+現在	5q sf	50
+現在是	5q sf d9	1
+現有	5q sj	1
+片	6	4
+門	6	2
+片欠	6 na	1
+將	6.	11
+轉	6.	5
+轉型	6.	1
+關	66	20
+關你	66 at	1
+間	6d	2
+輸	6n	3
+輸入法	6n a x;	1
+輸出	6n ww	3
+問	6o	6
+問顯	6o d8	8
+問號	6o oq	1
+問我	6o v5	1
+輯	6p	1
+閱	6q	1
+閱讀	6q 18	3
+開	6u	5
+開發	6u 0x	16
+開始	6u lo	7
+版	6x	1
+版本	6x	1
+較	6x	2
+田	7	1
+界	71	1
+國	75	6
+異	78	1
+異動	78 v,	1
+回	7o	10
+圖	7o	7
+圖像	7o	1
+圖表	7o	1
+回覆	7o 4x	1
+圖片	7o 6	3
+回應	7o cz	1
+因	7v	2
+因此	7v 9c	1
+思	7z	3
+思考	7z fb	3
+入八	8	1
+類	88	3
+公	8;	1
+公句	8; bo	3
+公格	8; io	5
+配	8c	1
+配合	8c ao	1
+精	8j	1
+精進	8j	1
+糊	8j	1
+分	8n	8
+分類	8n 88	3
+分成	8n h5	1
+分棉	8n i1	1
+卻	8p	2
+卻日	8p d	1
+料	8s	1
+歲	95	2
+頻	98	1
+頻率	98 ks	3
+此	9c	1
+跑	9c	2
+上	9e	17
+些	9e	8
+上班	9e 55	1
+上面	9e hp	9
+上好	9e lg	1
+背	9j	2
+背景	9j dt	1
+背後	9j ex	1
+跟	9k	4
+餐	9k	1
+跟我	9k v5	1
+跳	9q	1
+跳動	9q	1
+跳島	9q hw	3
+距	9r	1
+距離	9r kf	1
+步	9t	3
+步驟	9t ba	3
+虫	;	1
+參	;/	2
+參數	;/ dx	3
+參考	;/ fb	28
+能	;c	21
+能夠	;c	3
+能夠夠	;c	1
+能夠夠名	;c	2
+能夠夠夠	;c	3
+虯	;c	1
+能將	;c 6.	1
+能名	;c no	1
+能觿	;c no	14
+台	;o	3
+台積	;o v8	4
+台積電	;o v8 mc	5
+台灣	;o xb	1
+即	;p	2
+即使	;p ax	1
+即時	;p d.	5
+入	a	5
+像	a,	5
+令	a.	3
+傅	a.	3
+仍	a/	1
+修	a/	7
+修改	a/	1
+修俙	a/ a1	1
+仍然	a/ by	1
+修正	a/ e9	47
+修改	a/ rx	17
+進	a0	2
+進行	a0 ej	9
+介	a1	4
+飾	a1	2
+介紹	a1 to	1
+件	a2	2
+作	a3	7
+值	a3	1
+代	a5	1
+任	a5	4
+任何	a5	1
+任何	a5 aj	1
+任務	a5 b,	14
+代表	a5 fk	1
+們	a6	2
+供	a8	2
+今	ab	1
+今年	ab 22	1
+他	ac	2
+化	ac	1
+會	ad	40
+會有	ad sj	9
+但	ae	18
+但是	ae d9	5
+住	af	1
+備	af	1
+備份	af	1
+全	af	3
+全部	af kp	5
+住宿	af md	1
+拿抽	ag	1
+休	ai	2
+休息	ai	1
+保	ai	2
+休息	ai /z	1
+保扚	ai g.	1
+何	aj	3
+位	ak	4
+依	ak	1
+依據	ak	1
+位置	ak 43	6
+位置嗎	ak 43 ob	1
+依據	ak g,	3
+份	an	17
+例	an	7
+例子	an	1
+例子子	an	1
+例如	an lo	1
+佔	ao	2
+個	ao	83
+倍	ao	2
+合	ao	4
+含	ao	1
+個是	ao d9	1
+合適	ao k0	1
+館	ar	1
+什	as	1
+什麼	as ct	12
+什麼意思	as ct kz 7z	1
+你	at	30
+你的	at /.	5
+你能	at ;c	1
+你會	at ad	3
+你可以	at ej ja	2
+你可以參考	at ej ja ;/ fb	1
+你有	at sj	7
+你看	at v3	1
+倫	au	1
+候	av	3
+使	ax	2
+使用	ax	1
+便	ax	4
+假	ax	3
+做	ax	8
+優	ax	1
+優先	ax	1
+優先先	ax	1
+飯	ax	1
+飯店	ax co	3
+假如	ax lo	1
+假用	ax mf	1
+您	az	6
+務	b,	3
+通	b0	1
+通知	b0 2o	1
+預	b8	1
+預設	b8 1x	1
+孩	ba	2
+驗	ba	3
+驟	ba	4
+驗證	ba 1u	5
+也	bc	13
+也對	bc	1
+也會	bc	1
+包	bc	3
+包含	bc ao	7
+也是	bc d9	1
+也都	bc fp	1
+包括	bc go	1
+也存在	bc sg	1
+也有	bc sj	3
+子	bg	5
+了	bj	28
+了解	bj n2	3
+了嗎	bj ob	30
+司	bo	4
+那	bp	9
+那邊	bp /0	1
+那些	bp 9e	3
+那個	bp ao	1
+那麼	bp ct	3
+那麼小	bp ct t	1
+那裡	bp kf	1
+然	by	4
+能觿七	c	1
+九	c/	4
+病	ca	1
+病毒	ca f.	1
+比	cc	8
+比照	cc	1
+比較	cc 6x	0
+比例	cc an	3
+比炅	cc dy	2
+比如	cc lo	1
+比需	cc m1	1
+比對	cc u.	3
+底	ce	3
+底下	ce e9	3
+麻	ci	1
+麻煩	ci y8	3
+序	cj	2
+切	cn	3
+切換	cn	1
+劇	cn	2
+店	co	1
+麼	ct	4
+虛	cu	3
+虛線	cu tx	9
+度	cx	5
+廠	cx	2
+廠務	cx	1
+處	cx	6
+處理	cx 5f	4
+應	cz	6
+應該	cz 1a	15
+應該是	cz 1a d9	3
+日	d	1
+時	d.	5
+時候	d. av	11
+時機	d. i5	1
+影	d/	2
+易	d/	1
+影像	d/ a,	7
+題	d8	14
+顯	d8	2
+顯示	d8 et	128
+顯示的	d8 et /.	1
+是	d9	72
+是的	d9 /.	1
+是什麼	d9 as ct	4
+是不設	d9 h9 1x	1
+是不是	d9 h9 d9	5
+是否	d9 ho	15
+是確	d9 qf	1
+是在	d9 sf	1
+量	df	1
+果	di	6
+明	dj	2
+明天	dj ev	1
+明確	dj qf	1
+晚	dq	1
+晚上	dq	1
+曉	dq	1
+早	ds	2
+景	dt	1
+數	dx	5
+最	dx	1
+最好	dx	1
+數點	dx 4o	1
+數值	dx a3	1
+數位	dx ak	1
+照	dy	4
+一	e	98
+一上	e 9e	1
+專	e.	3
+專案	e.	1
+得	e.	5
+得到	e. en	2
+專長	e. pk	1
+專注於	e. xf ..	1
+形	e/	3
+式	e5	6
+或	e5	2
+或是	e5	1
+或是是	e5	2
+頭	e8	4
+下	e9	21
+從	e9	2
+正	e9	9
+正確	e9	1
+正確確	e9	2
+下城	e9 f5	1
+正中間	e9 o1 6d	3
+正確	e9 qf	5
+正確的	e9 qf /.	5
+丙	ea	2
+丙個	ea	1
+兩	ea	1
+兩個	ea	1
+兩個個	ea	1
+丙個	ea ao	1
+三	ee	3
+三個	ee	1
+二	ee	7
+二次	ee .a	2
+二個	ee ao	1
+再	ef	26
+型	ef	4
+往	ef	1
+至	ef	1
+往上	ef 9e	1
+往正	ef e9	1
+未	ei	3
+可	ej	2
+可以	ej	1
+可以以	ej	1
+可以以以	ej	9
+可用	ej	1
+行	ej	10
+術	ej	2
+可以以以能	ej ;c	3
+可以以以能是	ej ;c d9	1
+可以	ej ja	35
+行以	ej ja	5
+可以幫你	ej ja f1 at	1
+可以嗎	ej ja ob	1
+可以以以肌	ej jq	1
+行為	ej jy	1
+行程	ej v5	5
+很	ek	13
+裂	ek	1
+很不清楚	ek h9 xj i9	1
+很小	ek t	3
+很大	ek v	3
+列	en	4
+到	en	35
+列給我	en to	1
+元	eq	1
+元件	eq a2	1
+示	et	1
+天	ev	4
+後	ex	13
+後續	ex	1
+更	ex	13
+更多	ex	2
+更大	ex	1
+更好	ex	1
+更有	ex	1
+後好	ex lg	1
+更好	ex lg	1
+更動	ex v,	3
+執	f.	1
+毒	f.	1
+執行	f. ej	130
+達	f0	1
+達到	f0	1
+幫	f1	6
+幫我	f1	1
+幫助	f1 j,	1
+幫我	f1 v5	13
+幫忙	f1 zl	1
+域	f5	1
+載	f5	2
+填	f8	2
+賣	f8	1
+去	f;	5
+塊	f;	1
+去找	f; g5	1
+考	fb	5
+考試	fb 15	1
+考量	fb df	1
+地	fc	3
+起	fc	4
+起來	fc	1
+地點	fc 4o	1
+起來	fc ia	1
+地區	fc ro	1
+增	fd	2
+增加	fd ,o	13
+壞	fk	1
+壞掉	fk	1
+表	fk	2
+表瀨	fk x8	1
+超	fo	2
+超過	fo	1
+超過	fo m0	3
+聲	fp	4
+都	fp	35
+都是	fp	1
+聲調	fp 1o	5
+都要	fp 4l	11
+都要以	fp 4l ja	1
+都會	fp ad	3
+都是	fp d9	11
+都有	fp sj	3
+境	fq	2
+趣	fx	1
+據	g,	2
+持	g.	3
+求	g.	1
+才	g/	3
+才能	g/ ;c	1
+才會	g/ ad	1
+擔	g1	1
+擔任	g1 a5	1
+排	g3	1
+找	g5	10
+找到	g5 en	15
+找不到	g5 h9 en	4
+找不到了	g5 h9 en bj	1
+描	g7	1
+描述	g7 i0	1
+捉	g9	1
+提	g9	3
+提供	g9 a8	1
+把	gc	9
+指	gd	3
+指令	gd	1
+指定	gd	1
+指仿	gd a.	1
+採	gi	1
+採用	gi	1
+打	gj	7
+抈	gj	2
+打開	gj 6u	5
+拉	gk	2
+按	gl	20
+接	gl	10
+按鈕	gl 0s	27
+接受	gl jx	3
+接著	gl ud	5
+括	go	1
+控	gr	1
+抽	gs	41
+掉	gs	4
+擇	gs	1
+抽到	gs en	1
+抽過	gs m0	1
+抽字	gs mg	1
+抽出	gs ww	3
+換	gv	23
+換詞	gv 1o	1
+技	gx	1
+援	gx	1
+技術	gx ej	1
+師	h1	1
+所	h1	1
+所有	h1	1
+所有有	h1	1
+所有有有	h1	2
+而	h1	9
+而是	h1 d9	9
+而不是	h1 h9 d9	3
+所有有有以	h1 ja	2
+而且	h1 je	1
+而己	h1 rc	3
+成	h5	11
+成功	h5 r,	5
+質	h8	2
+不	h9	22
+歷	h9	2
+不管	h9 /r	3
+不見	h9 3q	3
+不要	h9 4l	36
+不會	h9 ad	1
+不是	h9 d9	11
+不曉得	h9 dq e.	1
+不一	h9 e	1
+不到	h9 en	6
+不相	h9 i3	1
+不過	h9 m0	1
+不需要	h9 m1 4l	3
+不用	h9 mf	5
+不夠大	h9 no	3
+歷史	h9 ox	1
+不清楚	h9 xj i9	2
+壓	hf	1
+壓絢	hf td	1
+壓縮	hf td	1
+否	ho	1
+面	hp	7
+面試	hp	1
+原	ht	5
+原因是什麼	ht 7v d9 as ct	1
+原本	ht ie	5
+原本的	ht ie /.	1
+原始	ht lo	1
+島	hw	4
+反	hx	3
+反覆	hx	1
+履	hx	1
+段	hx	4
+反應	hx cz	6
+履歷	hx h9	7
+感	hz	1
+述	i0	1
+速	i0	2
+析	i1	2
+相	i3	5
+相關	i3	5
+相關關	i3	1
+相輔	i3 66	19
+相容	i3 mo	1
+欄	i4	1
+欄位	i4 ak	3
+框	i5	5
+機	i5	5
+機器	i5	1
+機器	i5 oo	9
+框線	i5 tx	1
+檔	i7	3
+棋	i8	4
+整	i9	8
+整理	i9	1
+杯	i9	2
+楚	i9	4
+整理	i9 5f	9
+整個	i9 ao	1
+整數	i9 dx	3
+整體	i9 mu	1
+來	ia	13
+檢	ia	3
+檢查	ia ie	9
+檢測	ia xn	1
+東	id	2
+本	ie	4
+查	ie	1
+構	if	1
+根	ik	1
+根據	ik g,	1
+格	io	5
+標	it	4
+標籤	it /5	1
+標是	it d9	1
+模	iv	2
+模糊	iv 8j	9
+模型	iv ef	1
+樣	ix	11
+樣的	ix /.	1
+想	iz	5
+想要	iz 4l	10
+想要一	iz 4l e	1
+助	j,	2
+以	ja	6
+以及	ja /x	13
+以前	ja un	4
+以前的	ja un /.	1
+翻	jb	3
+且	je	4
+朋	jj	1
+朋友	jj sx	7
+受	jx	1
+服	jx	1
+服務	jx	1
+腦	jx	1
+為	jy	10
+為份	jy an	1
+為什麼	jy as ct	37
+之	k	3
+立	k	5
+就	k.	2
+就好	k.	3
+就會	k. ad	3
+就好是	k. d9	1
+就好好	k. lg	2
+夜	k0	2
+適	k0	1
+新	k1	2
+新增	k1 fd	1
+望	k5	6
+六	k8	1
+顏	k8	1
+顏色	k8	1
+顏色色	k8	1
+六個	k8 ao	1
+顏色色色	k8 nc	2
+音	kd	2
+產	ke	3
+產生	ke 2e	17
+裡	kf	4
+離	kf	1
+裡面	kf hp	12
+裡面的	kf hp /.	3
+高	ko	14
+高興	ko	1
+高度	ko cx	17
+部	kp	3
+部份	kp	3
+部份份	kp	3
+部份份份	kp	3
+部首	kp	1
+部首首	kp	2
+部首首首	kp	3
+郭	kp	2
+部例	kp an	5
+部苜	kp u3	1
+亮	kq	3
+視	kq	1
+視覺	kq wq	13
+率	ks	2
+辦	ks	3
+辦法	ks	1
+辦法	ks x;	1
+效	kx	4
+效果	kx	1
+文	kx	14
+文件	kx	1
+被	kx	6
+效果	kx di	5
+文字	kx mg	3
+意	kz	3
+意思嗎	kz 7z ob	1
+意義	kz u5	1
+好	lg	18
+好的	lg /.	7
+好像	lg a,	2
+好用	lg mf	0
+好小	lg t	1
+如	lo	10
+始	lo	2
+如何	lo aj	20
+如果	lo di	44
+如果像是	lo di a, d9	1
+如果是	lo di d9	1
+如果有	lo di sj	3
+雨	m	2
+寬	m.	2
+寬度	m.	7
+寬度	m. cx	9
+究	m/	2
+週	m0	1
+過	m0	15
+過程	m0 v5	1
+需	m1	4
+需要	m1 4l	1
+需求	m1 g.	13
+富	m7	7
+實	m8	3
+實驗	m8 ba	1
+實驟	m8 ba	1
+實際	m8 pt	5
+定	m9	4
+內	ma	1
+內容	ma mo	19
+它	mc	2
+電	mc	4
+電腦	mc jx	1
+宿	md	1
+用	mf	33
+用來	mf ia	5
+用在	mf sf	1
+字	mg	122
+字形	mg e/	49
+案	mi	2
+安	ml	1
+安排	ml g3	9
+刪	mn	1
+刪除	mn	1
+同	mo	4
+容	mo	5
+同步	mo 9t	1
+同時	mo d.	3
+容影	mo d/	1
+容易	mo d/	1
+完	mq	10
+完成	mq h5	1
+完整	mq i9	26
+空	mr	4
+空白	mr /d	1
+體	mu	4
+寫	my	4
+解	n2	4
+解決	n2	1
+解濁	n2 x;	1
+解滿	n2 xa	1
+負	n8	1
+負賣	n8 f8	1
+色	nc	10
+多	nn	15
+多個	nn ao	3
+多大	nn v	5
+名	no	2
+夠	no	5
+口鄆蔡巠	o mp ut er	1
+另	o,	2
+中	o1	22
+叫	o1	2
+叫我	o1	1
+中間	o1 6d	1
+中文	o1 kx	23
+只	o8	17
+只要	o8 4l	4
+只會	o8 ad	7
+只是	o8 d9	1
+只留	o8 r7	1
+只有	o8 sj	15
+嗎	ob	26
+雖	of	1
+雖然	of	1
+吇	og	2
+呼	og	1
+呼叫	og o1	1
+別	on	1
+品	oo	2
+器	oo	5
+號	oq	1
+單	os	4
+單獨	os ,;	3
+單位	os ak	3
+單一	os e	1
+史	ox	1
+吱	ox	2
+吸	ox	2
+嚴	ox	2
+嚴格	ox	1
+嚴格	ox io	1
+嚘臣	ox r1	1
+身區雨際	p ro m pt	1
+陽	p/	2
+職	p5	1
+職缺	p5 2a	3
+其	p8	2
+其它	p8 mc	3
+階	pd	1
+階段	pd hx	1
+阻	pe	1
+除	pi	8
+除錯	pi 0d	1
+長	pk	2
+長度	pk cx	1
+際	pt	1
+取	px	5
+取得	px e.	1
+隱	pz	1
+隱藏	pz u5	7
+風	q;	1
+風格	q; io	1
+碼	qb	2
+確	qf	7
+確認	qf 1z	3
+確保	qf ai	9
+確定	qf m9	9
+研穿	qu m/	1
+工	r	12
+工前	r un	2
+功	r,	4
+功能觿能觿七	r,	1
+功能	r, ;c	9
+尋	r.	1
+尋找	r.	1
+建	r0	3
+選	r0	8
+建議	r0 15	11
+選擇	r0 gs	1
+建立	r0 k	1
+引	r1	2
+留	r7	1
+己	rc	4
+己經	rc tr	5
+畫	re	11
+畫面	re	1
+畫面	re hp	14
+畫面上	re hp 9e	1
+張	rk	2
+艮	rk	1
+劃	rn	1
+劉	rn	2
+區	ro	8
+區域	ro f5	1
+區塊	ro f;	29
+盡	ru	3
+監	ru	1
+監控	ru gr	7
+改	rx	11
+改變	rx 1x	5
+改成	rx h5	1
+改善	rx uo	1
+十	s	3
+協	s,	1
+協助	s, j,	1
+直	s3	5
+直按	s3 gl	2
+真	s8	10
+黃	s8	1
+真的	s8 /.	7
+真假	s8 ax	1
+真實	s8 m8	5
+黃光	s8 tq	3
+甘	se	1
+在	sf	46
+在這	sf 10	1
+存	sg	2
+有	sj	52
+有的	sj /.	1
+有錯誤	sj 0d 1v	9
+有些	sj 9e	3
+有比較好用	sj cc 6x lg mf	1
+有用	sj mf	3
+有其它	sj p8 mc	1
+有看到	sj v3 en	1
+有沒有有	sj xx	1
+世	sl	1
+世界	sl 71	1
+古	so	1
+右	so	10
+右邊	so /0	35
+左	sr	6
+左邊	sr /0	18
+左古	sr so	3
+左測	sr xn	1
+友	sx	1
+支	sx	1
+支援	sx gx	1
+小	t	26
+約	t.	4
+終	t.	3
+少	t/	3
+常	t1	2
+常用	t1 mf	3
+幾	t5	1
+幾個	t5	1
+當	t7	6
+細	t7	4
+細節	t7 /p	1
+續	t8	2
+縮	td	1
+組	te	6
+維求	tf g.	2
+網	tl	1
+網格	tl	1
+繼	tl	1
+繼續	tl t8	5
+嚮	to	2
+紹	to	1
+結	to	8
+結果	to	2
+結果果	to	1
+給	to	13
+給我	to	1
+結你	to at	3
+結杲	to di	3
+給果	to di	1
+嚮我	to v5	2
+給我	to v5	7
+光	tq	2
+統	tq	2
+繞	tq	2
+光阻	tq pe	1
+紅	tr	3
+經	tr	2
+經驗	tr ba	1
+紅色	tr nc	5
+線	tx	4
+總	tz	2
+對	u.	19
+對照	u.	1
+導	u.	2
+導體	u.	1
+薄後	u.	1
+對話	u. 1o	3
+對應	u. cz	7
+道	u0	1
+首	u3	3
+義	u5	1
+藏	u5	1
+萬	u;	1
+萬一	u; e	1
+著	ud	1
+前	un	12
+前是	un d9	1
+前後	un ex	1
+前面	un hp	1
+善	uo	1
+落	uo	1
+落地	uo fc	1
+半	us	4
+半導體	us u.	1
+並	uu	12
+藍	uu	1
+藍色	uu	1
+藍色色	uu	1
+藍色色色	uu	1
+英	uv	2
+大	v	34
+大舷	v .t	1
+動	v,	10
+動作	v, a3	3
+動到	v, en	1
+動畫	v, re	9
+太	v.	5
+太淡	v. xy	1
+秒	v/	2
+秘	v/	2
+透週	v0 m0	4
+千	v1	1
+升	v1	2
+看	v3	17
+看得到	v3 e. en	1
+看到	v3 en	16
+我	v5	41
+程	v5	5
+我的	v5 /.	19
+我發現	v5 0x 5q	1
+我要	v5 4l	1
+我現在	v5 5q sf	1
+我們	v5 a6	7
+我們的	v5 a6 /.	1
+我是	v5 d9	1
+程式	v5 e5	64
+程式的	v5 e5 /.	1
+我按	v5 gl	1
+程師	v5 h1	1
+我想	v5 iz	8
+我想要	v5 iz 4l	7
+我只要	v5 o8 4l	1
+我在	v5 sf	5
+我有	v5 sj	3
+我覺得	v5 wq e.	1
+我希衽	v5 x1 k5	1
+積	v8	1
+夾	va	5
+種	vf	6
+重	vf	3
+重要	vf	1
+重覆	vf 4x	1
+重新	vf k1	38
+重新執行	vf k1 f. ej	3
+利	vn	1
+利用	vn	1
+移	vn	1
+移陎	vn pi	4
+移動	vn v,	7
+和	vo	18
+和倫	vo au	1
+和我	vo v5	3
+套	vp	1
+套用	vp mf	29
+與	w8	8
+興	w8	4
+興趣	w8 fx	1
+舉	wf	1
+舉例	wf an	1
+學	wg	2
+鷽火	wh y	1
+兒	wq	1
+覺	wq	3
+覺得	wq	1
+覺得	wq e.	4
+出	ww	5
+出來	ww ia	3
+又	x	2
+水	x	3
+液	x0	2
+希	x1	2
+希望	x1	1
+希望是	x1	1
+希衽	x1 k5	2
+減	x5	1
+減少	x5	1
+法	x;	6
+決	xa	3
+灣	xb	1
+注	xf	2
+注音	xf kd	139
+注音嗎	xf kd ob	1
+清	xj	2
+清整	xj i9	1
+清楚	xj i9	5
+漏	xm	3
+測	xn	3
+測試	xn 15	8
+測試的	xn 15 /.	1
+各	xo	3
+活	xo	3
+活動	xo	1
+各個	xo ao	1
+各動	xo v,	1
+各重	xo vf	1
+流	xq	1
+流程	xq v5	1
+源	xt	3
+源頭	xt e8	1
+漂亢	xt kq	2
+沒	xx	1
+沒有	xx	1
+沒有有	xx	2
+沒有有有	xx	12
+沒有有有有	xx	7
+爻	xx	1
+沒有有有鈤	xx 0d	1
+沒有有有有	xx sj	1
+爻有	xx sj	23
+沒有有題	xx sj d8	1
+沒有有有有用	xx sj mf	1
+淡	xy	1
+煩	y8	1
+必	z/	2
+必去	z/ f;	1
+必需	z/ m1	1
+快	za	2
+快速	za i0	7
+快速鍵	za i0 00	1
+性	ze	2
+情禠	zj kq	1
+忙	zl	1

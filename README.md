@@ -6,8 +6,8 @@ GitHub：https://github.com/hctsaik/Dayi_IME_for_Mac
 
 獨立 InputMethodKit App 因 macOS 15 需要 **Developer ID** 簽章才能出現在「加入輸入方式」清單，目前日用改走已簽章的 **鼠鬚管（Squirrel）**：
 
-1. 將 `squirrel-user/` 複製到 `~/Library/Rime/`
-2. 執行 `scripts/redeploy-dayi2.sh` 或鼠鬚管選單「重新部署」
+1. 將 `squirrel-user/` 裡的 yaml／詞庫複製到 `~/Library/Rime/`（含 `common_words_*.dict.yaml`、`mydayi_boost.dict.yaml`）
+2. 執行 `scripts/redeploy-dayi2.sh`（會編譯詞庫，並可匯入 `dayi2.userdb.export.txt` 學習詞）
 3. 系統設定加入 **Squirrel / 鼠鬚管**，方案選 **大易兩碼**
 4. 若第一候選被學錯（例如「感兒」蓋過「感覺」），從 userdb 刪掉該筆即可
 
