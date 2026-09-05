@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = A10000000000000000000020 /* Build configuration list for PBXProject "MyDayiMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hant";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hant",
+				Base,
+			);
+			mainGroup = A10000000000000000000010;
+			productRefGroup = A10000000000000000000013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000002 /* myDayiMac */,
+			);
+		};
+		A10000000000000000000002 /* myDayiMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000021 /* Build configuration list for PBXNativeTarget "myDayiMac" */;
+			buildPhases = (
+				A10000000000000000000003 /* Sources */,
+				A10000000000000000000004 /* Frameworks */,
+				A10000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myDayiMac;
+			productName = myDayiMac;
+			productReference = A10000000000000000000006 /* myDayiMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000031 /* FakeEngine.swift in Sources */,
+				A10000000000000000000032 /* EventMapper.swift in Sources */,
+				A10000000000000000000033 /* InputController.swift in Sources */,
+				A10000000000000000000034 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000041 /* InputMethodKit.framework in Frameworks */,
+				A10000000000000000000042 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000006 /* myDayiMac.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = myDayiMac.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A10000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* Sources */,
+				A10000000000000000000012 /* Resources */,
+				A10000000000000000000013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000011 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000050 /* FakeEngine.swift */,
+				A10000000000000000000051 /* EventMapper.swift */,
+				A10000000000000000000052 /* InputController.swift */,
+				A10000000000000000000053 /* main.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000012 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000054 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000006 /* myDayiMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000014 /* InputMethodKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = InputMethodKit.framework;
+			path = System/Library/Frameworks/InputMethodKit.framework;
+			sourceTree = SDKROOT;
+		};
+		A10000000000000000000015 /* AppKit.framework */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = System/Library/Frameworks/AppKit.framework;
+			sourceTree = SDKROOT;
+		};
+		A10000000000000000000031 /* FakeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000050 /* FakeEngine.swift */; };
+		A10000000000000000000032 /* EventMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000051 /* EventMapper.swift */; };
+		A10000000000000000000033 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000052 /* InputController.swift */; };
+		A10000000000000000000034 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000053 /* main.swift */; };
+		A10000000000000000000041 /* InputMethodKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* InputMethodKit.framework */; };
+		A10000000000000000000042 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* AppKit.framework */; };
+		A10000000000000000000050 /* FakeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine/FakeEngine.swift; sourceTree = "<group>"; };
+		A10000000000000000000051 /* EventMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMethod/EventMapper.swift; sourceTree = "<group>"; };
+		A10000000000000000000052 /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMethod/InputController.swift; sourceTree = "<group>"; };
+		A10000000000000000000053 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMethod/main.swift; sourceTree = "<group>"; };
+		A10000000000000000000054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000020 /* Build configuration list for PBXProject "MyDayiMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000022 /* Debug */,
+				A10000000000000000000023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000021 /* Build configuration list for PBXNativeTarget "myDayiMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000024 /* Debug */,
+				A10000000000000000000025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A10000000000000000000023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A10000000000000000000024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_ALLOWED = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.mydayi.mac.dev;
+				PRODUCT_NAME = myDayiMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_ALLOWED = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.mydayi.mac.dev;
+				PRODUCT_NAME = myDayiMac;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}

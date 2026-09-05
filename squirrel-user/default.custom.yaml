@@ -1,0 +1,5 @@
+patch:
+  schema_list:
+    - schema: mydayi_mac
+    - schema: dayi2
+    - schema: dayi4

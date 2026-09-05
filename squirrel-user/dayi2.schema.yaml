@@ -1,0 +1,132 @@
+# encoding: utf-8
+# Mac 上你正在用的方案 dayi2：對齊 Windows 連打，去掉反查/繁簡。
+schema:
+  schema_id: dayi2
+  name: 大易兩碼
+  version: "20260905"
+  author:
+    - 制作人 小漢堡
+  description: |
+    大易兩碼（連打，不需每字空格）
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 英文 ]
+  - name: full_shape
+    states: [ 半形, 全形 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator@fixed_phrases
+    - echo_translator
+    - punct_translator
+    - script_translator
+  filters:
+    - uniquifier
+
+fixed_phrases:
+  dictionary: common_words_table
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: false
+  initial_quality: 1
+
+
+menu:
+  alternative_select_keys: "ABCDEFGHIJ"
+  page_size: 8
+
+ascii_composer:
+  good_old_caps_lock: false
+
+speller:
+  alphabet: '0123456789/.,;abcdefghijklmnopqrstuvwxyz'
+
+translator:
+  dictionary: dayi2
+  spelling_hints: 0
+  enable_user_dict: true
+  enable_sentence: false
+  enable_encoder: true
+  enable_charset_filter: false
+  encode_commit_history: true
+  max_phrase_length: 3
+  disable_user_dict_for_patterns:
+    - "^.$"
+
+punctuator:
+  half_shape:
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, "/", ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, "\\", ＼ ]
+    "|" : [ ·, "|", ｜, "§", "¦" ]
+    "`" : "`"
+    "~" : "~"
+    "!" : { commit: ！ }
+    "@" : "@"
+    "#" : "#"
+    "%" : [ "%", ％, "°", "℃" ]
+    "$" : [ ￥, "$", "€", "£", "¥", "¢", "¤" ]
+    "^" : { commit: …… }
+    "&" : "&"
+    "*" : [ "*", ＊, ◎, ·, ・, ×, ※, ❂ ]
+    "(" : （
+    ")" :  ）
+    "_" : [ －,—— , "-" ]
+    "+" : "+"
+    "=" : "="
+    "[" : [ 「, 【, 《, 〔, ［ ]
+    "]" : [ 」, 】, 》, 〕, ］ ]
+    "{" : [ 『, 〖, 〈, ｛ ]
+    "}" : [ 』, 〗, 〉, ｝ ]
+  full_shape:
+    " " : { commit: "　" }
+    "<" : { commit: "，" }
+    ">" : { commit: "。" }
+    "?" : [ ？, ／, ÷ ]
+    ":" : [ ：, ； ]
+    "'" : { pair: [ "‘", "’" ] }
+    "\"" : { pair: [ "“", "”" ] }
+    "\\" : [ 、, ＼ ]
+    "|" : [ ·, ｜, "§", "¦" ]
+    "`" : ｀
+    "~" : ～
+    "!" : { commit: ！ }
+    "(" : （
+    ")" :  ）
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: always, accept: Tab, toggle: ascii_mode }
+    - { when: has_menu, accept: comma, send: comma }
+    - { when: has_menu, accept: period, send: period }
+    - { when: has_menu, accept: minus, send: minus }
+    - { when: has_menu, accept: equal, send: equal }
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+    upper_case: "^([A-DF-IK-OQ-Z][a-zA-Z0-9]*|[EJP][A-Z0-9]*)$"

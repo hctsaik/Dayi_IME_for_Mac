@@ -1,0 +1,103 @@
+{
+  "sources": [
+    {
+      "title": "臺灣",
+      "revid": 93857310,
+      "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3",
+      "chars": 40326
+    },
+    {
+      "title": "中華民國",
+      "revid": 94189153,
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B",
+      "chars": 30572
+    },
+    {
+      "title": "中文",
+      "revid": 91105935,
+      "url": "https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%96%87",
+      "chars": 0
+    },
+    {
+      "title": "感覺",
+      "revid": 93764843,
+      "url": "https://zh.wikipedia.org/wiki/%E6%84%9F%E8%A6%BA",
+      "chars": 213
+    },
+    {
+      "title": "生活",
+      "error": "parse failed for 生活: {'code': 'missingtitle', 'info': \"The page you specified doesn't exist.\", 'docref': 'See https://zh.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &lt;https://lists.wikimedia.org/postorius/lists/mediawiki-api-announce.lists.wikimedia.org/&gt; for notice of API deprecations and breaking changes.'}"
+    },
+    {
+      "title": "心理學",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "教育",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "title": "家庭",
+      "revid": 93412686,
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%B6%E5%BA%AD",
+      "chars": 11654
+    },
+    {
+      "title": "健康",
+      "revid": 94044984,
+      "url": "https://zh.wikipedia.org/wiki/%E5%81%A5%E5%BA%B7",
+      "chars": 3884
+    },
+    {
+      "title": "rime-essay",
+      "path": "reference/windows-baseline/lexicon_sources/essay.txt",
+      "entries": 421711
+    }
+  ],
+  "license": "Wikipedia: Wikimedia Terms of Use; essay.txt: rime-essay license in lexicon_sources",
+  "article_gold_pieces": 7040,
+  "boost_entries": 46251,
+  "new_bigram_phrases": 6251,
+  "感覺": {
+    "article_count": 7,
+    "essay_count": 76480,
+    "boost": [
+      "hz wq",
+      80000000
+    ]
+  },
+  "top_article_phrases": [
+    [
+      "民國",
+      302
+    ],
+    [
+      "家庭",
+      213
+    ],
+    [
+      "政府",
+      204
+    ],
+    [
+      "社會",
+      185
+    ],
+    [
+      "中國",
+      141
+    ],
+    [
+      "國家",
+      127
+    ],
+    [
+      "文化",
+      118
+    ],
+    [
+      "經濟",
+      113
+    ]
+  ]
+}

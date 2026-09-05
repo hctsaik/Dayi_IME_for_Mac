@@ -1,0 +1,15 @@
+# Generated/deployed Rime state
+build/
+*.userdb
+*.userdb/
+sync/
+trash/
+*.log
+LOCK
+*.tmp
+
+# Local test artifacts and editor files
+__pycache__/
+.pytest_cache/
+.venv/
+lexicon_sources/sinica_words.json

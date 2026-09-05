@@ -1,0 +1,9 @@
+# Rime 預設設定（patch）
+# 將「大易兩碼」設為程式預設輸入法
+# 使用方式：將此檔與同資料夾的 .schema / .dict 等一併複製到 %AppData%\Rime 後重新部署
+
+patch:
+  # 方案列表：第一個即為預設
+  schema_list:
+    - schema: dayi2
+    - schema: Phonetic_tw

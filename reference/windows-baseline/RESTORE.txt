@@ -1,0 +1,22 @@
+大易兩碼 Rime 設定・還原步驟
+============================
+
+本說明可隨備份一併帶走，日後在新電腦或重裝後還原使用。
+
+一、還原到本專案（若你是從 backup 資料夾還原）
+  1. 將備份資料夾內「所有檔案」複製到專案的 user_setting 資料夾，覆蓋同名檔。
+  2. 若備份裡沒有 common_words_import.dict.yaml 或 luna_pinyin.practical.dict.yaml，
+     請依下方「二」重新建表與部署。
+
+二、讓 Rime 使用這份設定（每次換電腦或重裝後）
+  1. 將 user_setting 內所有檔案複製到 Rime 使用者目錄：
+     • 路徑：%AppData%\Rime
+     • 或執行 user_setting 裡的 deploy_to_rime.ps1 一次複製。
+  2. 若需要常用詞，在 user_setting 資料夾執行：
+     python build_common_words_table.py
+     再將產生的 common_words_import.dict.yaml 複製到 %AppData%\Rime（或再執行一次 deploy_to_rime.ps1）。
+  3. 開始選單 → 小狼毫輸入法 → 重新部署。
+
+三、備份建議
+  • 執行 user_setting\backup_rime_settings.ps1 會將設定備份到專案下的 backup\rime_dayi2_日期時間。
+  • 可將整個 backup 資料夾複製到隨身碟或雲端，日後整份複製回來再依「一、二」操作即可。

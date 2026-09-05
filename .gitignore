@@ -1,0 +1,11 @@
+build/
+.DS_Store
+*.swp
+xcuserdata/
+DerivedData/
+docs/evidence/*.png
+docs/evidence/*.jpg
+*.userdb/
+*.userdb.txt
+user.yaml
+

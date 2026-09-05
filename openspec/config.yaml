@@ -1,0 +1,9 @@
+schema: spec-driven
+context: |
+  myDayi Mac is a standalone native macOS input method.
+  Use Swift/AppKit/InputMethodKit with a librime C bridge.
+  Reuse private reference Dayi dictionaries without depending on Squirrel.
+  Section 0 specs are frozen; no macOS implementation or native tests have been completed.
+  Deferred: phonetic reverse lookup, traditional/simplified switching, Windows live userdb migration.
+  Documentation language: Traditional Chinese; use standard OpenSpec requirement headings.
+

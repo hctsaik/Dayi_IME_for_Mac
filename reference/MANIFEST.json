@@ -1,0 +1,144 @@
+﻿{
+    "source":  "myDayi_IME",
+    "commit":  "da9383918ff8ab3af4e0919373b871a595c7bf49",
+    "captured":  "2026-09-05",
+    "working_tree":  "clean",
+    "scope":  "Tracked repository files for private development reference; no live user data",
+    "files":  [
+                  {
+                      "path":  ".gitignore",
+                      "sha256":  "1e9084f38dd80cca384438ae1d08e0f1325c31348b35c507ed9eb5f6525162b8",
+                      "bytes":  198
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "b26644aa663ee355746f6fe5175c99493c91b8d170c63d8bc105ce89bdbc2d43",
+                      "bytes":  1504
+                  },
+                  {
+                      "path":  "README.txt",
+                      "sha256":  "7940d69c96f2f499c89f382ddbe46f3a814751d545066520161cf81067662a7d",
+                      "bytes":  2645
+                  },
+                  {
+                      "path":  "RESTORE.txt",
+                      "sha256":  "4babded800988f92b12b8525c28ff5c12da3633c06974b7d80ae3246d2cf2872",
+                      "bytes":  1288
+                  },
+                  {
+                      "path":  "backup_rime_settings.ps1",
+                      "sha256":  "9918a23007d82ee5a6f5a165eb20c505ac9e5a18aef1016dab4072415e0655eb",
+                      "bytes":  1743
+                  },
+                  {
+                      "path":  "build_common_words_table.py",
+                      "sha256":  "113fb3de453f8b83822f197b8df7b42752e40c6b505be1a1b695b8bf029f144e",
+                      "bytes":  4603
+                  },
+                  {
+                      "path":  "build_dayi2_single_char_weights.py",
+                      "sha256":  "24a1d8f0e7897d0af2d853a96dfc6e43bd4810e401ae50652a49331a1a5cd5eb",
+                      "bytes":  13399
+                  },
+                  {
+                      "path":  "common_words.dict.yaml",
+                      "sha256":  "cd80091103297043372d13e900f3aa7aea50e718de054357f33fac39bb242f38",
+                      "bytes":  474586
+                  },
+                  {
+                      "path":  "common_words_import.dict.yaml",
+                      "sha256":  "aece5da29dfa8502f2b9d7b16f88668a6ced805ca7cbc73732d70fc9ffba36e7",
+                      "bytes":  739244
+                  },
+                  {
+                      "path":  "common_words_table.dict.yaml",
+                      "sha256":  "fba6a2c63480df2368fd9c41773cafa4c24c1e7c4b220b9d401865b28d63969c",
+                      "bytes":  1427749
+                  },
+                  {
+                      "path":  "dayi2.dict.yaml",
+                      "sha256":  "08cc9bde7ccfac6cb6ebe941cf07360e0c50b28b2755f91c6216c9a5d0b6337e",
+                      "bytes":  252208
+                  },
+                  {
+                      "path":  "dayi2.schema.yaml",
+                      "sha256":  "792347f406013828c295fccd94d2594894ab279c2b0677398c19f13a824480f5",
+                      "bytes":  7381
+                  },
+                  {
+                      "path":  "dayi2.yaml",
+                      "sha256":  "68b4f636e5c27cda2f46f9bdfa5ad2a995821712b7f860d1c96996f8cd7cd44a",
+                      "bytes":  2772
+                  },
+                  {
+                      "path":  "dayi2_base.dict.yaml",
+                      "sha256":  "197810ae703e09f0d7ad01599e362448a1709fec3184e96eea6217f02b5f34b8",
+                      "bytes":  130723
+                  },
+                  {
+                      "path":  "default.custom.yaml",
+                      "sha256":  "9547cc2580ed39edaac95e97045fbf910f33cfe22875f52b24432957c00b7a16",
+                      "bytes":  303
+                  },
+                  {
+                      "path":  "deploy_to_rime.ps1",
+                      "sha256":  "e958b661ebc258bc80c8b3028afd9f85c5493f1ba838fca67590ddb8598b0915",
+                      "bytes":  1508
+                  },
+                  {
+                      "path":  "lexicon_sources/85rest02.csv",
+                      "sha256":  "8ade7cd812e50ed9d0acc396f5b493d40014e00571b6cd424ae9d812bd1042de",
+                      "bytes":  2113547
+                  },
+                  {
+                      "path":  "lexicon_sources/SOURCES.md",
+                      "sha256":  "8230880e725147bddedcf13243c65697955e6855a8424813a219d344c8ae2d19",
+                      "bytes":  2745
+                  },
+                  {
+                      "path":  "lexicon_sources/essay.txt",
+                      "sha256":  "52e00bd5eed9479198923396bae01d4b5adbb13a3ec9b18e441c50cff8641407",
+                      "bytes":  6330113
+                  },
+                  {
+                      "path":  "lexicon_sources/rime-essay-AUTHORS",
+                      "sha256":  "254bb8bd5abefaa4e05396d6fe43560ae5a38957b48b597aeebe39b4d5051810",
+                      "bytes":  403
+                  },
+                  {
+                      "path":  "lexicon_sources/rime-essay-LICENSE",
+                      "sha256":  "ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9",
+                      "bytes":  7816
+                  },
+                  {
+                      "path":  "lexicon_sources/rime-essay-README.md",
+                      "sha256":  "7a0b3db46b08739a189f58d54ecc5c6640658534721ead54440aad46552c6fff",
+                      "bytes":  239
+                  },
+                  {
+                      "path":  "lexicon_sources/tbcl.csv",
+                      "sha256":  "0778e1d648944b1e64cbc2b640f00e488fec5c4ed06101cd5e93cab29346ce22",
+                      "bytes":  889728
+                  },
+                  {
+                      "path":  "lua/min_commit_user_phrase.lua",
+                      "sha256":  "f37f087f2befec38b0dc50aa063bf46eb2d48ea248bf46dfc21969ca70afcab1",
+                      "bytes":  2442
+                  },
+                  {
+                      "path":  "luna_pinyin.practical.dict.yaml",
+                      "sha256":  "d2b5c99657e8480ccbaa785fe1c4a93d6641c5887621f22695e0226ff41205dc",
+                      "bytes":  4185290
+                  },
+                  {
+                      "path":  "test/ARTICLE_REGRESSION.md",
+                      "sha256":  "bae059c6c45a9d16369c36ae43ee0933b5f3a5d7e0dcd97f22caaef5084aa4a9",
+                      "bytes":  2797
+                  },
+                  {
+                      "path":  "test/article_regression.py",
+                      "sha256":  "377107638b361dbe4ff6322c15c435e88d98236fc8aecf5ac0c59c7d3b780541",
+                      "bytes":  17843
+                  }
+              ]
+}

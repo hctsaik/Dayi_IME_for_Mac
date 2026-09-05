@@ -1,0 +1,25 @@
+{
+  "article": "臺灣",
+  "revision": 93857310,
+  "timestamp": "2026-08-12T01:01:32Z",
+  "url": "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3",
+  "license": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+  "chars": 39164,
+  "hanzi_tokens": 21237,
+  "phrase_tokens": 9787,
+  "unsupported_hanzi": 6,
+  "unique_gold_pieces": 4626,
+  "boost_entries": 41113,
+  "new_bigram_phrases": 1113,
+  "feeling": {
+    "感覺": 0,
+    "感": 0,
+    "覺": 0,
+    "兒": 3,
+    "boost_感覺": [
+      "hzwq",
+      9480000
+    ]
+  },
+  "top_phrases": []
+}
