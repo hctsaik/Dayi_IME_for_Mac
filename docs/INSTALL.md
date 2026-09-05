@@ -101,22 +101,16 @@ macOS 常抓住舊 IME 行程，看起來像沒更新：
 
 ### 步驟 F —（可選）鍵盤改成 Windows 習慣
 
-使用者不習慣 ⌘ 複製時，在該 Mac 執行：
+目標 Mac 需已安裝 [Karabiner-Elements](https://karabiner-elements.pqrs.org/)（這台 Mini 已有）。然後：
 
 ```sh
-sh scripts/macos-windows-modifiers.sh
+sh scripts/apply-windows-shortcuts.sh
 ```
 
-效果：把 **Control 與 Command 對調**。之後 **Ctrl+C / V / X / Z / A / S** 與 Windows 相同。從 Windows 用 RustDesk 連進來時，按鍵盤上的 Ctrl 也會複製。
+會把 **Ctrl+C / V / X / Z / A / S / F / W** 對應成 Mac 的 Command 版（複製、貼上、剪下、復原、全選、儲存、搜尋、關分頁）。**Ctrl+Y** 為重做。  
+⌘ 本身仍可用。若系統問「輸入監控」，請允許 Karabiner。
 
-還原：
-
-```sh
-sh scripts/macos-windows-modifiers.sh undo
-```
-
-此設定寫在 `~/Library/LaunchAgents/local.mydayi.windows-modifiers.plist`，重開機仍有效。  
-**Home／End 跳到行首行尾** 不在這一步（要 Karabiner）；使用者需要時再加。
+先前 hidutil 把 Control↔Command 整顆對調，會跟 Karabiner 舊規則打架（兩顆都變成 Control，**Ctrl+Z 復原會失效**）。此腳本會先撤銷 hidutil。
 
 ---
 
