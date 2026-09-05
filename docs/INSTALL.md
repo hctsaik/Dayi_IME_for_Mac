@@ -99,6 +99,25 @@ macOS 常抓住舊 IME 行程，看起來像沒更新：
 
 通過後才算這台 Mac 部署完成。
 
+### 步驟 F —（可選）鍵盤改成 Windows 習慣
+
+使用者不習慣 ⌘ 複製時，在該 Mac 執行：
+
+```sh
+sh scripts/macos-windows-modifiers.sh
+```
+
+效果：把 **Control 與 Command 對調**。之後 **Ctrl+C / V / X / Z / A / S** 與 Windows 相同。從 Windows 用 RustDesk 連進來時，按鍵盤上的 Ctrl 也會複製。
+
+還原：
+
+```sh
+sh scripts/macos-windows-modifiers.sh undo
+```
+
+此設定寫在 `~/Library/LaunchAgents/local.mydayi.windows-modifiers.plist`，重開機仍有效。  
+**Home／End 跳到行首行尾** 不在這一步（要 Karabiner）；使用者需要時再加。
+
 ---
 
 ## 4. 詞庫檔對照（`squirrel-user/`）
@@ -129,6 +148,7 @@ macOS 常抓住舊 IME 行程，看起來像沒更新：
 | `rime_deployer` 失敗、缺 `.table.bin` | 確認 yaml 在 `~/Library/Rime`，再跑一次 redeploy；看終端機錯誤 |
 | 候選直排、字體怪 | 確認已拷 `squirrel.custom.yaml` 並重新部署 |
 | 誤學一直回來 | 選對的候選再上屏；不要連續空白把錯詞學進去 |
+| 想用 Ctrl+C 複製 | `sh scripts/macos-windows-modifiers.sh`（Control↔Command） |
 
 查引擎實際第一候選（鼠鬚管須先關掉以免鎖 userdb）：
 
